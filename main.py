@@ -7,7 +7,7 @@ from CTkMessagebox import CTkMessagebox
 customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("dark-blue")
 
-class Tool:
+class Tool(customtkinter.CTk):
     def __init__(self):
         try:
             self.data = None
@@ -115,22 +115,22 @@ class Tool:
     
     def createHomePage(self):
         try:
-            search_bar_frame = customtkinter.CTkFrame(self.app , bg_color="transparent")
-            search_bar_frame.pack(padx=10, fill="x", expand=False)
+            table_action_frame = customtkinter.CTkFrame(self.app, bg_color="transparent")
+            table_action_frame.pack(padx=10, fill="x", expand=False)
 
-            search_button = customtkinter.CTkButton(search_bar_frame, text="Search")
+            search_button = customtkinter.CTkButton(table_action_frame, text="Search")
             search_button.grid(row=0, column=0, sticky="nsew", pady=10, padx=5)
             search_button.configure(command=lambda: self.searchTool(search_bar.get()))
 
-            search_bar = customtkinter.CTkEntry(search_bar_frame, width=450)
+            search_bar = customtkinter.CTkEntry(table_action_frame, width=450)
             search_bar.grid(row=0, column=1, sticky="nsew", pady=10)
             search_bar.configure(placeholder_text="Search for tools by name or keywords")
 
-            delete_button = customtkinter.CTkButton(search_bar_frame, width=100, text="Delete")
+            delete_button = customtkinter.CTkButton(table_action_frame, width=100, text="Delete")
             delete_button.grid(row=0, column=2, sticky="nsew", pady=10, padx=5)
             delete_button.configure(command=lambda: self.deleteTool(delete_bar.get()))
 
-            delete_bar = customtkinter.CTkEntry(search_bar_frame, width=150)
+            delete_bar = customtkinter.CTkEntry(table_action_frame, width=150)
             delete_bar.grid(row=0, column=3, sticky="nsew", pady=10)
             delete_bar.configure(placeholder_text="Tool ID")
 
@@ -148,13 +148,13 @@ class Tool:
                     print(e)
                     pass                    
 
-            reset_button = customtkinter.CTkButton(search_bar_frame, width=100, text="Reset", command=reset)
+            reset_button = customtkinter.CTkButton(table_action_frame, width=100, text="Reset", command=reset)
             reset_button.grid(row=0, column=4, sticky="nsew", pady=10, padx=5)
 
-            add_new_tool_button = customtkinter.CTkButton(search_bar_frame, width=100, text="Add New Tool", command=self.InsertToolDialog)
+            add_new_tool_button = customtkinter.CTkButton(table_action_frame, width=100, text="Add New Tool", command=self.InsertToolDialog)
             add_new_tool_button.grid(row=0, column=5, sticky="nsew", pady=10, padx=5)
 
-            self.tools_table_frame = customtkinter.CTkFrame(self.app )
+            self.tools_table_frame = customtkinter.CTkScrollableFrame(self.app)
             self.tools_table_frame.pack(padx=10, fill="both", expand=True)
 
             headers = ["Tool ID", "Tool Name", "Tool Path / GitHub link", "Tool Description"]
@@ -165,7 +165,7 @@ class Tool:
 
             for col in range(len(headers)):
                 self.tools_table_frame.columnconfigure(col, weight=1)
-            
+
             self.updateTable()
 
             self.app.mainloop()
