@@ -1,1 +1,562 @@
-[]
+[
+    {
+        "id": "4c0c5d6a-1",
+        "name": "Nmap",
+        "path/GitHub link": "https://github.com/nmap/nmap",
+        "description": "Network scanner for discovery and security auditing.",
+        "keywords": [
+            "network scanning",
+            "security audit"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-2",
+        "name": "Recon-ng",
+        "path/GitHub link": "https://github.com/lanmaster53/recon-ng",
+        "description": "Web reconnaissance framework.",
+        "keywords": [
+            "osint",
+            "reconnaissance"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-3",
+        "name": "Maltego",
+        "path/GitHub link": "",
+        "description": "Data mining and link analysis tool.",
+        "keywords": [
+            "data visualization",
+            "link analysis"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-4",
+        "name": "theHarvester",
+        "path/GitHub link": "https://github.com/laramies/theHarvester",
+        "description": "Information gathering tool for emails, subdomains, hosts, employee names, etc.",
+        "keywords": [
+            "information gathering",
+            "osint"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-5",
+        "name": "Shodan.io",
+        "path/GitHub link": "",
+        "description": "Search engine for Internet-connected devices.",
+        "keywords": [
+            "iot search",
+            "device discovery"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-6",
+        "name": "OpenVAS",
+        "path/GitHub link": "",
+        "description": "Vulnerability scanner and management.",
+        "keywords": [
+            "vulnerability assessment",
+            "security scanner"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-7",
+        "name": "Nikto",
+        "path/GitHub link": "",
+        "description": "Web server scanner to find potential vulnerabilities.",
+        "keywords": [
+            "web server security",
+            "vulnerability scanner"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-8",
+        "name": "Nexpose",
+        "path/GitHub link": "",
+        "description": "Vulnerability management solution.",
+        "keywords": [
+            "vulnerability assessment",
+            "risk management"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-9",
+        "name": "Vega",
+        "path/GitHub link": "",
+        "description": "Web security scanner.",
+        "keywords": [
+            "web application security",
+            "vulnerability scanner"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-10",
+        "name": "Arachni",
+        "path/GitHub link": "https://github.com/Arachni/arachni",
+        "description": "Web application security scanner framework.",
+        "keywords": [
+            "web security",
+            "vulnerability assessment"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-11",
+        "name": "Aircrack-ng",
+        "path/GitHub link": "https://github.com/aircrack-ng/aircrack-ng",
+        "description": "Network security tool for assessing WiFi network security.",
+        "keywords": [
+            "wifi security",
+            "packet analysis"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-12",
+        "name": "Kismet",
+        "path/GitHub link": "",
+        "description": "Wireless network detector, sniffer, and intrusion detection system.",
+        "keywords": [
+            "wireless security",
+            "packet sniffer"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-13",
+        "name": "Wireshark",
+        "path/GitHub link": "",
+        "description": "Network protocol analyzer.",
+        "keywords": [
+            "packet analysis",
+            "network traffic"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-14",
+        "name": "Reaver",
+        "path/GitHub link": "https://github.com/t6x/reaver-wps-fork-t6x",
+        "description": "Brute-force attack tool for WPS PINs.",
+        "keywords": [
+            "wifi security",
+            "wps pin brute-force"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-15",
+        "name": "PixieWPS",
+        "path/GitHub link": "",
+        "description": "Offline WPS brute-force utility.",
+        "keywords": [
+            "wifi security",
+            "wps pin brute-force"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-16",
+        "name": "Burp Suite",
+        "path/GitHub link": "",
+        "description": "Web vulnerability scanner and proxy tool.",
+        "keywords": [
+            "web security",
+            "penetration testing"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-17",
+        "name": "OWASP ZAP",
+        "path/GitHub link": "https://github.com/zaproxy/zaproxy",
+        "description": "Web application security scanner.",
+        "keywords": [
+            "web security",
+            "penetration testing"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-18",
+        "name": "sqlmap",
+        "path/GitHub link": "https://github.com/sqlmapproject/sqlmap",
+        "description": "Automatic SQL injection and database takeover tool.",
+        "keywords": [
+            "sql injection",
+            "database security"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-19",
+        "name": "wpscan",
+        "path/GitHub link": "https://github.com/wpscanteam/wpscan",
+        "description": "WordPress vulnerability scanner.",
+        "keywords": [
+            "wordpress security",
+            "vulnerability scanner"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-20",
+        "name": "Skipfish",
+        "path/GitHub link": "",
+        "description": "Web application security reconnaissance tool.",
+        "keywords": [
+            "web security",
+            "reconnaissance"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-21",
+        "name": "Metasploit Framework",
+        "path/GitHub link": "https://github.com/rapid7/metasploit-framework",
+        "description": "Penetration testing platform with exploit database.",
+        "keywords": [
+            "exploitation",
+            "penetration testing"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-22",
+        "name": "BeEF",
+        "path/GitHub link": "https://github.com/beefproject/beef",
+        "description": "Browser exploitation framework.",
+        "keywords": [
+            "browser security",
+            "exploitation"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-23",
+        "name": "ExploitDB",
+        "path/GitHub link": "https://github.com/offensive-security/exploitdb",
+        "description": "Exploit database archive.",
+        "keywords": [
+            "exploits",
+            "security research"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-24",
+        "name": "SET (Social-Engineer Toolkit)",
+        "path/GitHub link": "https://github.com/trustedsec/social-engineer-toolkit",
+        "description": "Toolkit for social engineering attacks.",
+        "keywords": [
+            "social engineering",
+            "exploitation"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-25",
+        "name": "PowerSploit",
+        "path/GitHub link": "https://github.com/PowerShellMafia/PowerSploit",
+        "description": "PowerShell-based penetration testing framework.",
+        "keywords": [
+            "powershell",
+            "penetration testing"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-26",
+        "name": "John the Ripper",
+        "path/GitHub link": "https://github.com/openwall/john",
+        "description": "Password cracking tool.",
+        "keywords": [
+            "password cracking",
+            "hash cracking"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-27",
+        "name": "Hydra",
+        "path/GitHub link": "https://github.com/vanhauser-thc/thc-hydra",
+        "description": "Password brute-forcing tool.",
+        "keywords": [
+            "password cracking",
+            "brute force"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-28",
+        "name": "hashcat",
+        "path/GitHub link": "https://github.com/hashcat/hashcat",
+        "description": "Advanced password recovery tool.",
+        "keywords": [
+            "password recovery",
+            "hash cracking"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-29",
+        "name": "crunch",
+        "path/GitHub link": "https://github.com/crunchsec/crunch",
+        "description": "Wordlist generator.",
+        "keywords": [
+            "wordlist",
+            "password cracking"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-30",
+        "name": "THC-Hydra",
+        "path/GitHub link": "https://github.com/vanhauser-thc/thc-hydra",
+        "description": "Password brute-forcing tool.",
+        "keywords": [
+            "password cracking",
+            "network attacks"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-31",
+        "name": "Volatility",
+        "path/GitHub link": "https://github.com/volatilityfoundation/volatility",
+        "description": "Memory forensics framework.",
+        "keywords": [
+            "memory forensics",
+            "digital forensics"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-32",
+        "name": "Autopsy",
+        "path/GitHub link": "https://github.com/sleuthkit/autopsy",
+        "description": "Digital forensics platform.",
+        "keywords": [
+            "digital forensics",
+            "investigation"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-33",
+        "name": "Bulk Extractor",
+        "path/GitHub link": "https://github.com/simsong/bulk_extractor",
+        "description": "Forensic data extraction tool.",
+        "keywords": [
+            "forensics",
+            "data extraction"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-34",
+        "name": "Foremost",
+        "path/GitHub link": "https://github.com/korczis/foremost",
+        "description": "File recovery tool.",
+        "keywords": [
+            "file recovery",
+            "forensics"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-35",
+        "name": "Sleuth Kit",
+        "path/GitHub link": "https://github.com/sleuthkit/sleuthkit",
+        "description": "Forensic analysis toolkit.",
+        "keywords": [
+            "forensic analysis",
+            "file system analysis"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-36",
+        "name": "Radare2",
+        "path/GitHub link": "https://github.com/radareorg/radare2",
+        "description": "Reverse engineering framework.",
+        "keywords": [
+            "reverse engineering",
+            "binary analysis"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-37",
+        "name": "GDB (GNU Debugger)",
+        "path/GitHub link": "",
+        "description": "Debugger for C, C++, and other languages.",
+        "keywords": [
+            "debugger",
+            "code analysis"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-38",
+        "name": "IDA Pro",
+        "path/GitHub link": "",
+        "description": "Disassembler and debugger for software analysis.",
+        "keywords": [
+            "disassembler",
+            "software analysis"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-39",
+        "name": "APKTool",
+        "path/GitHub link": "https://github.com/iBotPeaches/Apktool",
+        "description": "Tool for reverse engineering Android APK files.",
+        "keywords": [
+            "android security",
+            "reverse engineering"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-40",
+        "name": "jadx",
+        "path/GitHub link": "https://github.com/skylot/jadx",
+        "description": "Dex to Java decompiler.",
+        "keywords": [
+            "java decompiler",
+            "android security"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-41",
+        "name": "Dradis",
+        "path/GitHub link": "",
+        "description": "Collaboration and reporting tool for information security teams.",
+        "keywords": [
+            "collaboration",
+            "information security reporting"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-42",
+        "name": "MagicTree",
+        "path/GitHub link": "",
+        "description": "Penetration tester's collaborative data mining tool.",
+        "keywords": [
+            "data mining",
+            "penetration testing"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-43",
+        "name": "Faraday IDE",
+        "path/GitHub link": "",
+        "description": "Collaborative Penetration Test and Vulnerability Management Platform.",
+        "keywords": [
+            "penetration testing",
+            "vulnerability management"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-44",
+        "name": "KeepNote",
+        "path/GitHub link": "",
+        "description": "Note-taking application.",
+        "keywords": [
+            "note-taking",
+            "organization"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-45",
+        "name": "CaseFile",
+        "path/GitHub link": "",
+        "description": "Data mining and visualization tool.",
+        "keywords": [
+            "data visualization",
+            "investigation"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-46",
+        "name": "enum4linux",
+        "path/GitHub link": "",
+        "description": "Enumerates information from Windows and Samba systems.",
+        "keywords": [
+            "Windows enumeration",
+            "Samba enumeration"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-47",
+        "name": "SMBMap",
+        "path/GitHub link": "",
+        "description": "Enumerates Samba share drives across a domain.",
+        "keywords": [
+            "Samba enumeration",
+            "Domain shares"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-48",
+        "name": "SMBclient",
+        "path/GitHub link": "",
+        "description": "Connects to SMB shares and enumerates files.",
+        "keywords": [
+            "SMB shares",
+            "File enumeration"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-49",
+        "name": "Empire",
+        "path/GitHub link": "",
+        "description": "Post-exploitation framework for maintaining control over compromised systems.",
+        "keywords": [
+            "Post-exploitation",
+            "Remote control"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-50",
+        "name": "CrackMapExec (CME)",
+        "path/GitHub link": "",
+        "description": "Tool for assessing network security in large Active Directory networks.",
+        "keywords": [
+            "Network security",
+            "Active Directory"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-51",
+        "name": "Responder",
+        "path/GitHub link": "",
+        "description": "Tool for rogue authentication server attacks.",
+        "keywords": [
+            "Rogue server",
+            "Hash capturing"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-52",
+        "name": "Mimikatz",
+        "path/GitHub link": "",
+        "description": "Tool for extracting credentials and tickets from memory.",
+        "keywords": [
+            "Credentials extraction",
+            "Memory analysis"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-53",
+        "name": "Evilginx2",
+        "path/GitHub link": "",
+        "description": "Tool for setting up phishing attacks and capturing credentials.",
+        "keywords": [
+            "Phishing",
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-54",
+        "name": "LaZagne",
+        "path/GitHub link": "",
+        "description": "Credential recovery tool for extracting passwords from various applications.",
+        "keywords": [
+            "Credential extraction",
+            "Password recovery"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-55",
+        "name": "Bettercap",
+        "path/GitHub link": "",
+        "description": "Powerful network tool for monitoring and man-in-the-middle attacks.",
+        "keywords": [
+            "Network monitoring",
+            "MITM"
+        ]
+    },
+    {
+        "id": "4c0c5d6a-56",
+        "name": "SQLNinja",
+        "path/GitHub link": "",
+        "description": "Tool for exploiting SQL Injection vulnerabilities.",
+        "keywords": [
+            "SQL Injection",
+            "Web application"
+        ]
+    }
+]
