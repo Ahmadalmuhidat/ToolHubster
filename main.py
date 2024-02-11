@@ -80,7 +80,7 @@ class Tool(customtkinter.CTk):
                         "name": tool_name_entry.get().strip(),
                         "path/GitHub link":  tool_path_entry.get().strip(),
                         "description": tool_description_entry.get("0.0", "end").strip(),
-                        "keywords": [keyword.strip() for keyword in tool_keywords_entry.get(0.0, "end") .split(",")]
+                        "keywords": [keyword.strip().lower() for keyword in tool_keywords_entry.get(0.0, "end") .split(",")]
                     }
 
                     self.data.append(entry)
@@ -160,7 +160,7 @@ class Tool(customtkinter.CTk):
             headers = ["Tool ID", "Tool Name", "Tool Path / GitHub link", "Tool Description"]
 
             for col, header in enumerate(headers):
-                header_label = customtkinter.CTkLabel(self.tools_table_frame, text=header, padx=10, pady=5)
+                header_label = customtkinter.CTkLabel(self.tools_table_frame, text=header, padx=10, pady=20)
                 header_label.grid(row=0, column=col, sticky="nsew")
 
             for col in range(len(headers)):
@@ -239,11 +239,12 @@ class Tool(customtkinter.CTk):
         try:
             with open("Tools.json", 'r') as json_file:
                 data = json.load(json_file)
+                results = []
 
             for item in data:
-                if (item.get("name") == term) or (term in item.get("keywords")):
-                    self.data = []
-                    self.data.append(item)
+                if (item.get("name").lower() == term.lower()) or (term.lower() in item.get("keywords", [])) or (term.lower() in item.get("description", "").lower()):
+                    results.append(item)
+                    self.data = results
                     self.displayTools()
 
         except Exception as e:
