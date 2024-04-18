@@ -1,382 +1,741 @@
 [
-    {
-        "id": "4c0c5d6a-1",
-        "name": "Nmap",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Network scanner for discovery and security auditing.",
-        "keywords": [
-            "network scanning",
-            "security audit"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-2",
-        "name": "Recon-ng",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Web reconnaissance framework.",
-        "keywords": [
-            "osint",
-            "reconnaissance"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-3",
-        "name": "Maltego",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Data mining and link analysis tool.",
-        "keywords": [
-            "data visualization",
-            "link analysis"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-4",
-        "name": "theHarvester",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Information gathering tool for emails, subdomains, hosts, employee names, etc.",
-        "keywords": [
-            "information gathering",
-            "osint"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-5",
-        "name": "Shodan.io",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Search engine for Internet-connected devices.",
-        "keywords": [
-            "iot search",
-            "device discovery"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-6",
-        "name": "OpenVAS",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Vulnerability scanner and management.",
-        "keywords": [
-            "vulnerability assessment",
-            "security scanner"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-7",
-        "name": "Nikto",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Web server scanner to find potential vulnerabilities.",
-        "keywords": [
-            "web server security",
-            "vulnerability scanner"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-8",
-        "name": "Nexpose",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Vulnerability management solution.",
-        "keywords": [
-            "vulnerability assessment",
-            "risk management"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-9",
-        "name": "Vega",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Web security scanner.",
-        "keywords": [
-            "web application security",
-            "vulnerability scanner"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-10",
-        "name": "Arachni",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Web application security scanner framework.",
-        "keywords": [
-            "web security",
-            "vulnerability assessment"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-11",
-        "name": "Aircrack-ng",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Network security tool for assessing WiFi cle security.",
-        "keywords": [
-            "wifi security",
-            "packet analysis"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-12",
-        "name": "Kismet",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Wireless network detector, sniffer, and intrusion detection system.",
-        "keywords": [
-            "wireless security",
-            "packet sniffer"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-13",
-        "name": "Wireshark",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Network protocol analyzer.",
-        "keywords": [
-            "packet analysis",
-            "network traffic"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-14",
-        "name": "Reaver",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Brute-force attack tool for WPS PINs.",
-        "keywords": [
-            "wifi security",
-            "wps pin brute-force"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-15",
-        "name": "PixieWPS",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Offline WPS brute-force utility.",
-        "keywords": [
-            "wifi security",
-            "wps pin brute-force"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-16",
-        "name": "Burp Suite",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Web vulnerability scanner and proxy tool.",
-        "keywords": [
-            "web security",
-            "penetration testing"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-17",
-        "name": "OWASP ZAP",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Web application security scanner.",
-        "keywords": [
-            "web security",
-            "penetration testing"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-18",
-        "name": "sqlmap",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Automatic SQL injection and database takeover tool.",
-        "keywords": [
-            "sql injection",
-            "database security"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-19",
-        "name": "wpscan",
-        "path/GitHub link": " installed by default on kali",
-        "description": "WordPress vulnerability scanner.",
-        "keywords": [
-            "wordpress security",
-            "vulnerability scanner"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-20",
-        "name": "Skipfish",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Web application security reconnaissance tool.",
-        "keywords": [
-            "web security",
-            "reconnaissance"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-21",
-        "name": "Metasploit Framework",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Penetration testing platform with exploit database.",
-        "keywords": [
-            "exploitation",
-            "penetration testing"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-22",
-        "name": "BeEF",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Browser exploitation framework.",
-        "keywords": [
-            "browser security",
-            "exploitation"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-23",
-        "name": "ExploitDB",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Exploit database archive.",
-        "keywords": [
-            "exploits",
-            "security research"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-24",
-        "name": "SET (Social-Engineer Toolkit)",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Toolkit for social engineering attacks.",
-        "keywords": [
-            "social engineering",
-            "exploitation"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-25",
-        "name": "PowerSploit",
-        "path/GitHub link": " installed by default on kali",
-        "description": "PowerShell-based penetration testing framework.",
-        "keywords": [
-            "powershell",
-            "penetration testing"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-26",
-        "name": "John the Ripper",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Password cracking tool.",
-        "keywords": [
-            "password cracking",
-            "hash cracking"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-27",
-        "name": "Hydra",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Password brute-forcing tool.",
-        "keywords": [
-            "password cracking",
-            "brute force"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-28",
-        "name": "hashcat",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Advanced password recovery tool.",
-        "keywords": [
-            "password recovery",
-            "hash cracking"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-29",
-        "name": "crunch",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Wordlist generator.",
-        "keywords": [
-            "wordlist",
-            "password cracking"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-32",
-        "name": "Autopsy",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Digital forensics platform.",
-        "keywords": [
-            "digital forensics",
-            "investigation"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-36",
-        "name": "Radare2",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Reverse engineering framework.",
-        "keywords": [
-            "reverse engineering",
-            "binary analysis"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-43",
-        "name": "Faraday IDE",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Collaborative Penetration Test and Vulnerability Management Platform.",
-        "keywords": [
-            "penetration testing",
-            "vulnerability management"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-46",
-        "name": "enum4linux",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Enumerates information from Windows and Samba systems.",
-        "keywords": [
-            "windows enumeration",
-            "samba enumeration"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-47",
-        "name": "SMBMap",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Enumerates Samba share drives across a domain.",
-        "keywords": [
-            "samba enumeration",
-            "domain shares"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-48",
-        "name": "SMBclient",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Connects to SMB shares and enumerates files.",
-        "keywords": [
-            "smb shares",
-            "file enumeration"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-50",
-        "name": "CrackMapExec (CME)",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Tool for assessing network security in large Active Directory networks.",
-        "keywords": [
-            "network security",
-            "active directory"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-51",
-        "name": "Responder",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Tool for rogue authentication server attacks.",
-        "keywords": [
-            "rogue server",
-            "hash capturing"
-        ]
-    },
-    {
-        "id": "4c0c5d6a-52",
-        "name": "Mimikatz",
-        "path/GitHub link": " installed by default on kali",
-        "description": "Tool for extracting credentials and tickets from memory.",
-        "keywords": [
-            "credentials extraction",
-            "memory analysis"
-        ]
-    }
+  {
+    "id": "4c0c5d6a-1",
+    "name": "Nmap",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Network scanner for discovery and security auditing.",
+    "keywords": [
+      "network scanning",
+      "security audit"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-2",
+    "name": "Recon-ng",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Web reconnaissance framework.",
+    "keywords": [
+      "osint",
+      "reconnaissance"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-3",
+    "name": "Maltego",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Data mining and link analysis tool.",
+    "keywords": [
+      "data visualization",
+      "link analysis"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-4",
+    "name": "theHarvester",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Information gathering tool for emails, subdomains, hosts, employee names, etc.",
+    "keywords": [
+      "information gathering",
+      "osint"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-5",
+    "name": "Shodan.io",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Search engine for Internet-connected devices.",
+    "keywords": [
+      "iot search",
+      "device discovery"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-6",
+    "name": "OpenVAS",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Vulnerability scanner and management.",
+    "keywords": [
+      "vulnerability assessment",
+      "security scanner"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-7",
+    "name": "Nikto",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Web server scanner to find potential vulnerabilities.",
+    "keywords": [
+      "web server security",
+      "vulnerability scanner"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-8",
+    "name": "Nexpose",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Vulnerability management solution.",
+    "keywords": [
+      "vulnerability assessment",
+      "risk management"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-9",
+    "name": "Vega",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Web security scanner.",
+    "keywords": [
+      "web application security",
+      "vulnerability scanner"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-10",
+    "name": "Arachni",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Web application security scanner framework.",
+    "keywords": [
+      "web security",
+      "vulnerability assessment"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-11",
+    "name": "Aircrack-ng",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Network security tool for assessing WiFi cle security.",
+    "keywords": [
+      "wifi security",
+      "packet analysis"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-12",
+    "name": "Kismet",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Wireless network detector, sniffer, and intrusion detection system.",
+    "keywords": [
+      "wireless security",
+      "packet sniffer"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-13",
+    "name": "Wireshark",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Network protocol analyzer.",
+    "keywords": [
+      "packet analysis",
+      "network traffic"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-14",
+    "name": "Reaver",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Brute-force attack tool for WPS PINs.",
+    "keywords": [
+      "wifi security",
+      "wps pin brute-force"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-15",
+    "name": "PixieWPS",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Offline WPS brute-force utility.",
+    "keywords": [
+      "wifi security",
+      "wps pin brute-force"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-16",
+    "name": "Burp Suite",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Web vulnerability scanner and proxy tool.",
+    "keywords": [
+      "web security",
+      "penetration testing"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-17",
+    "name": "OWASP ZAP",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Web application security scanner.",
+    "keywords": [
+      "web security",
+      "penetration testing"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-18",
+    "name": "sqlmap",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Automatic SQL injection and database takeover tool.",
+    "keywords": [
+      "sql injection",
+      "database security"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-19",
+    "name": "wpscan",
+    "path/GitHub link": " installed by default on kali",
+    "description": "WordPress vulnerability scanner.",
+    "keywords": [
+      "wordpress security",
+      "vulnerability scanner"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-20",
+    "name": "Skipfish",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Web application security reconnaissance tool.",
+    "keywords": [
+      "web security",
+      "reconnaissance"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-21",
+    "name": "Metasploit Framework",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Penetration testing platform with exploit database.",
+    "keywords": [
+      "exploitation",
+      "penetration testing"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-22",
+    "name": "BeEF",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Browser exploitation framework.",
+    "keywords": [
+      "browser security",
+      "exploitation"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-23",
+    "name": "ExploitDB",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Exploit database archive.",
+    "keywords": [
+      "exploits",
+      "security research"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-24",
+    "name": "SET (Social-Engineer Toolkit)",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Toolkit for social engineering attacks.",
+    "keywords": [
+      "social engineering",
+      "exploitation"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-25",
+    "name": "PowerSploit",
+    "path/GitHub link": " installed by default on kali",
+    "description": "PowerShell-based penetration testing framework.",
+    "keywords": [
+      "powershell",
+      "penetration testing"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-26",
+    "name": "John the Ripper",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Password cracking tool.",
+    "keywords": [
+      "password cracking",
+      "hash cracking"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-27",
+    "name": "Hydra",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Password brute-forcing tool.",
+    "keywords": [
+      "password cracking",
+      "brute force"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-28",
+    "name": "hashcat",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Advanced password recovery tool.",
+    "keywords": [
+      "password recovery",
+      "hash cracking"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-29",
+    "name": "crunch",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Wordlist generator.",
+    "keywords": [
+      "wordlist",
+      "password cracking"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-32",
+    "name": "Autopsy",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Digital forensics platform.",
+    "keywords": [
+      "digital forensics",
+      "investigation"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-36",
+    "name": "Radare2",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Reverse engineering framework.",
+    "keywords": [
+      "reverse engineering",
+      "binary analysis"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-43",
+    "name": "Faraday IDE",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Collaborative Penetration Test and Vulnerability Management Platform.",
+    "keywords": [
+      "penetration testing",
+      "vulnerability management"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-46",
+    "name": "enum4linux",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Enumerates information from Windows and Samba systems.",
+    "keywords": [
+      "windows enumeration",
+      "samba enumeration"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-47",
+    "name": "SMBMap",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Enumerates Samba share drives across a domain.",
+    "keywords": [
+      "samba enumeration",
+      "domain shares"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-48",
+    "name": "SMBclient",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Connects to SMB shares and enumerates files.",
+    "keywords": [
+      "smb shares",
+      "file enumeration"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-50",
+    "name": "CrackMapExec (CME)",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Tool for assessing network security in large Active Directory networks.",
+    "keywords": [
+      "network security",
+      "active directory"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-51",
+    "name": "Responder",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Tool for rogue authentication server attacks.",
+    "keywords": [
+      "rogue server",
+      "hash capturing"
+    ]
+  },
+  {
+    "id": "4c0c5d6a-52",
+    "name": "Mimikatz",
+    "path/GitHub link": " installed by default on kali",
+    "description": "Tool for extracting credentials and tickets from memory.",
+    "keywords": [
+      "credentials extraction",
+      "memory analysis"
+    ]
+  },
+  {
+    "id": "621c264c-c",
+    "name": "AndrRat",
+    "path/GitHub link": "Desktop/hacking/AndrRat",
+    "description": "a tool designed to give the control of the android system remotely and retrieve informations from it",
+    "keywords": [
+      "android hacking",
+      ""
+    ]
+  },
+  {
+    "id": "b1754246-c",
+    "name": "Anon-SMS",
+    "path/GitHub link": "Desktop/hacking/Anon-SMS",
+    "description": "Anonymous Message Sender for Linux And Termux.",
+    "keywords": [
+      "sms",
+      "anonymous message",
+      "social engineering"
+    ]
+  },
+  {
+    "id": "349a5814-c",
+    "name": "BufferOverFlow Script",
+    "path/GitHub link": "Desktop/hacking/BufferOverFlow Script",
+    "description": "python scripts I have wrote to implement buffer overflow attack",
+    "keywords": [
+      "buffer overflow",
+      "python"
+    ]
+  },
+  {
+    "id": "7cec1d32-c",
+    "name": "CamPhish",
+    "path/GitHub link": "Desktop/hacking/CamPhish",
+    "description": "Grab cam shots from target's phone front camera or PC webcam just sending a link.",
+    "keywords": [
+      "social engineering",
+      "cam hacking",
+      "osnit"
+    ]
+  },
+  {
+    "id": "0a98d42c-c",
+    "name": "Command Injection Payload List",
+    "path/GitHub link": "Desktop/hacking/command-injection-payload-list",
+    "description": "al list of commands that can be used in  OS command Injection while hacking APIs or web application",
+    "keywords": [
+      "os command injection",
+      "injection",
+      "web application hacking",
+      "linux",
+      "windows"
+    ]
+  },
+  {
+    "id": "b191a452-c",
+    "name": "fuff",
+    "path/GitHub link": "installed by default on linux",
+    "description": "a fast web fuzzer written in Go",
+    "keywords": [
+      "web fuzzer",
+      "web application"
+    ]
+  },
+  {
+    "id": "5844a2a4-c",
+    "name": "hacking tools",
+    "path/GitHub link": "Desktop/hacking/hackingtool",
+    "description": "All in One Hacking tool For Hackers",
+    "keywords": [
+      "all in one tools",
+      "web application",
+      "sql",
+      "wordlist generator",
+      "phishing",
+      "forensic",
+      "ddos",
+      "xss",
+      "steganograhy tools",
+      "osnit"
+    ]
+  },
+  {
+    "id": "c2a29a0c-c",
+    "name": "LaZagne",
+    "path/GitHub link": "Desktop/hacking/LaZagne",
+    "description": "open source application used to retrieve lots of passwords stored on a local computer.",
+    "keywords": [
+      "retrieve passwords",
+      "osnit",
+      "steal passwords"
+    ]
+  },
+  {
+    "id": "7db28ca2-c",
+    "name": "LinEnum",
+    "path/GitHub link": "Desktop/hacking/LinEnum",
+    "description": "bash script that performs common commands related to privilege escalationa tool used to scan linux server for while doing Privesc",
+    "keywords": [
+      "privesc",
+      "linux"
+    ]
+  },
+  {
+    "id": "b2ac76de-c",
+    "name": "Osintgram",
+    "path/GitHub link": "Desktop/hacking/Osintgram",
+    "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
+    "keywords": [
+      "instagram hacking",
+      "osnit",
+      "social media"
+    ]
+  },
+  {
+    "id": "74ee9f76-c",
+    "name": "Payloads All The Things",
+    "path/GitHub link": "Desktop/hacking/PayloadsAllTheThings",
+    "description": "A list of useful payloads and bypasses for Web Application Security.",
+    "keywords": [
+      "web application hacking"
+    ]
+  },
+  {
+    "id": "a7fa70fc-c",
+    "name": "PEASS-ng",
+    "path/GitHub link": "Desktop/hacking/PEASS-ng",
+    "description": "PEASS-ng - Privilege Escalation Awesome Scripts SUITE new generation",
+    "keywords": [
+      "privesc"
+    ]
+  },
+  {
+    "id": "ecd5d518-c",
+    "name": "sherlock",
+    "path/GitHub link": "Desktop/hacking/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "keywords": [
+      "osnit",
+      "social media"
+    ]
+  },
+  {
+    "id": "280fed08-c",
+    "name": "Social Engineer Toolkit",
+    "path/GitHub link": "Desktop/hacking/social-engineer-toolkit",
+    "description": "open-source penetration testing framework designed for social engineering",
+    "keywords": [
+      "social engineering"
+    ]
+  },
+  {
+    "id": "5f738ab6-c",
+    "name": "sqlmap",
+    "path/GitHub link": "Desktop/hacking/sqlmap",
+    "description": "sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL",
+    "keywords": [
+      "sql injection"
+    ]
+  },
+  {
+    "id": "e5c1b336-c",
+    "name": "ssh2john",
+    "path/GitHub link": "Desktop/hacking/ssh2john",
+    "description": "This is a script that basically transforms private key to john format for later cracking using John the Ripper",
+    "keywords": [
+      "ssh cracking",
+      "ssh hacking"
+    ]
+  },
+  {
+    "id": "4b2aa944-c",
+    "name": "SSRFire",
+    "path/GitHub link": "Desktop/hacking/SSRFire",
+    "description": "An automated SSRF finder (Server-Side Request Forgery)",
+    "keywords": [
+      "ssrf",
+      "xxs",
+      "web application",
+      "api hacking"
+    ]
+  },
+  {
+    "id": "80d17ca8-c",
+    "name": "Sublist3r",
+    "path/GitHub link": "Desktop/hacking/Sublist3r",
+    "description": "python tool designed to enumerate subdomains of websites using OSINT",
+    "keywords": [
+      "osnit",
+      "subdomains",
+      "web application"
+    ]
+  },
+  {
+    "id": "e538875e-c",
+    "name": "theZoo",
+    "path/GitHub link": "Desktop/hacking/theZoo",
+    "description": "repository of LIVE malwares for malware analysis and security.",
+    "keywords": [
+      "malware analysis"
+    ]
+  },
+  {
+    "id": "539380e6-c",
+    "name": "Updog",
+    "path/GitHub link": "Desktop/hacking/Updog",
+    "description": "a replacement for Python's `SimpleHTTPServer`, It allows uploading and downloading via HTTP/S,",
+    "keywords": [
+      "python server",
+      "quick server",
+      "http server",
+      "https server"
+    ]
+  },
+  {
+    "id": "8766b226-c",
+    "name": "Villain",
+    "path/GitHub link": "Desktop/hacking/Villain",
+    "description": "high level C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells",
+    "keywords": [
+      "listener",
+      "reverse shells",
+      "payload generation"
+    ]
+  },
+  {
+    "id": "f2229a08-c",
+    "name": "RDP check",
+    "path/GitHub link": "Desktop/hacking/RDP check",
+    "description": "python script let you check if some credentials are valid for a RDP service",
+    "keywords": [
+      "rdp hacking"
+    ]
+  },
+  {
+    "id": "1aa07db2-c",
+    "name": "gobuster",
+    "path/GitHub link": "from the command line",
+    "description": "a tool used to enumerate sub directories",
+    "keywords": [
+      "osnit",
+      "web application"
+    ]
+  },
+  {
+    "id": "97844aac-c",
+    "name": "smbclient",
+    "path/GitHub link": "from the command line",
+    "description": "a tool used to access shared directories on the SMB server by mapping shared directories to mount points",
+    "keywords": [
+      "smb",
+      "shared directories",
+      "windows"
+    ]
+  },
+  {
+    "id": "81b24502-c",
+    "name": "xfreerdp",
+    "path/GitHub link": "from the command line",
+    "description": "open-source remote desktop protocol (RDP) client that allows users to connect to remote desktops running Microsoft Windows",
+    "keywords": [
+      "rdp",
+      "windows"
+    ]
+  },
+  {
+    "id": "ad014870-c",
+    "name": "rdesktop",
+    "path/GitHub link": "from the command line",
+    "description": "open-source client for the Remote Desktop Protocol (RDP). It allows users to connect to a remote Windows desktop environment from another computer",
+    "keywords": [
+      "rdp",
+      "windows"
+    ]
+  },
+  {
+    "id": "8068320e-c",
+    "name": "fsociety",
+    "path/GitHub link": "Desktop/hacking/fsociety",
+    "description": "A Penetration Testing Framework, you will have every script that a hacker needs.",
+    "keywords": [
+      "tools",
+      "kit",
+      "python",
+      "pack",
+      "collection"
+    ]
+  },
+  {
+    "id": "79ada1e6-c",
+    "name": "EagleOsint",
+    "path/GitHub link": "Desktop/hacking/EagleOsint",
+    "description": "a tool used to do different OSNIT operations",
+    "keywords": [
+      "osnit",
+      "kit",
+      "tools"
+    ]
+  },
+  {
+    "id": "a5118f6c-c",
+    "name": "lscript",
+    "path/GitHub link": "Desktop/hacking/lscript",
+    "description": "script for Kali Linux that automates many procedures about wifi penetration and hacking.",
+    "keywords": [
+      "tools",
+      "kit"
+    ]
+  },
+  {
+    "id": "07a510ea-c",
+    "name": "linWinPwn",
+    "path/GitHub link": "Desktop/hacking/linWinPwn",
+    "description": "linWinPwn is a bash script that automates a number of Active Directory Enumeration and Vulnerability checks.",
+    "keywords": [
+      "active directory enumeration",
+      "windows"
+    ]
+  },
+  {
+    "id": "0e00fa60-c",
+    "name": "XSStrike",
+    "path/GitHub link": "Desktop/hacking/XSStrike",
+    "description": "a tool used for Cross Site Scripting detection suit",
+    "keywords": [
+      "xss",
+      "web application",
+      "enumeration"
+    ]
+  },
+  {
+    "id": "97b5925c-c",
+    "name": "PyPhisher",
+    "path/GitHub link": "Desktop/hacking/PyPhisher",
+    "description": "Ultimate phishing tool in python. Includes popular websites like facebook, twitter, instagram, etc..",
+    "keywords": [
+      "phishing tools",
+      "social engineering"
+    ]
+  },
+  {
+    "id": "b5d570ee-c",
+    "name": "Havoc",
+    "path/GitHub link": "Desktop/hacking/Havoc",
+    "description": "open-source repository command-and-control (C2) framework",
+    "keywords": [
+      "windows"
+    ]
+  },
+  {
+    "id": "64eb826c-c",
+    "name": "hackergpt",
+    "path/GitHub link": "https://www.hackergpt.chat/",
+    "description": "AI-powered tool that provide accurate answers on hacking and cybersecurity",
+    "keywords": [
+      "ai hacking tool"
+    ]
+  }
 ]
