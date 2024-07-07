@@ -34,7 +34,6 @@ class Tool(customtkinter.CTk):
     try:
       self.app = customtkinter.CTk()
       self.app.geometry("1500x950")
-      self.app.resizable(width=0, height=0)
       self.app.title("TOOLHUBSTER")
 
       self.createHomePage(self.app)
